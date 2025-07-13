@@ -20,6 +20,8 @@ find_package(ament_cmake REQUIRED)		# cpp (optional)
 find_package(rclcpp REQUIRED)			# cpp (optional)
 find_package(ament_cmake_python REQUIRED)   	# python (optional)
 find_package(rclpy REQUIRED)                	# python (optional)
+find_package(urdf REQUIRED)
+find_package(rviz2 REQUIRED)
 ######################################################
 
 # Install Python Module
@@ -52,3 +54,18 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
+
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+install(
+  DIRECTORY urdf
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+install(
+  DIRECTORY meshes
+  DESTINATION share/${PROJECT_NAME}/
+)

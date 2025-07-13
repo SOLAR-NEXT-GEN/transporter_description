@@ -11,6 +11,11 @@
   <buildtool_depend>ament_cmake_python</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
   
+  <depend>urdf</depend>
+  <depend>rviz2</depend>
+  <depend>robot_state_publisher</depend>
+  <exec_depend>ament_index_python</exec_depend>
+
   <depend>rclcpp</depend>
   <depend>rclpy</depend>
   

@@ -50,22 +50,11 @@ install(TARGETS
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
   # add directories here
+  rviz
   launch
+  urdf
+  meshes
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
 
-install(
-  DIRECTORY launch
-  DESTINATION share/${PROJECT_NAME}/
-)
-
-install(
-  DIRECTORY urdf
-  DESTINATION share/${PROJECT_NAME}/
-)
-
-install(
-  DIRECTORY meshes
-  DESTINATION share/${PROJECT_NAME}/
-)

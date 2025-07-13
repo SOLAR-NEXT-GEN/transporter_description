@@ -318,7 +318,7 @@
   </link>
   <joint
     name="WHEEL1"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="0.15625 1.866 0.12723"
       rpy="1.5708 0.00064167 0" />
@@ -376,7 +376,7 @@
   </link>
   <joint
     name="WHEEL2"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="-0.15625 1.866 0.12723"
       rpy="1.5708 0.00064167 0" />
@@ -434,7 +434,7 @@
   </link>
   <joint
     name="WHEEL3"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="0.15625 -1.875 0.12723"
       rpy="1.5708 0.00064167 0" />
@@ -492,7 +492,7 @@
   </link>
   <joint
     name="WHEEL4"
-    type="revolute">
+    type="continuous">
     <origin
       xyz="-0.15625 -1.875 0.12723"
       rpy="1.5708 0.00064167 0" />

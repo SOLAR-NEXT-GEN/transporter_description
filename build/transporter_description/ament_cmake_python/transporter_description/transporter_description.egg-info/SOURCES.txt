@@ -1,7 +1,0 @@
-setup.py
-transporter_description/__init__.py
-transporter_description/dummy_module.py
-transporter_description.egg-info/PKG-INFO
-transporter_description.egg-info/SOURCES.txt
-transporter_description.egg-info/dependency_links.txt
-transporter_description.egg-info/top_level.txt

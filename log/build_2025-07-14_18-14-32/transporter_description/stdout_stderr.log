@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_transporter_description
+running egg_info
+writing transporter_description.egg-info/PKG-INFO
+writing dependency_links to transporter_description.egg-info/dependency_links.txt
+writing top-level names to transporter_description.egg-info/top_level.txt
+reading manifest file 'transporter_description.egg-info/SOURCES.txt'
+writing manifest file 'transporter_description.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_transporter_description_egg
+-- Install configuration: ""
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/pythonpath.sh
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/pythonpath.dsv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info
+-- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/__init__.py
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/dummy_module.py
+Listing '/home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description'...
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/lib/transporter_description/dummy_script.py
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/lib/transporter_description/cpp_node_test
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/rviz
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/rviz/transport_visual_RVIZ.rviz
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/launch
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/launch/transporter_rviz.launch.py
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf
+-- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf/solar_urdf2.urdf
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf/solar_urdf2.csv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN3.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL4.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL3.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN2.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN1.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/base_link.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL2.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN4.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL1.STL
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/package_run_dependencies/transporter_description
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/parent_prefix_path/transporter_description
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/path.sh
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/path.dsv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.bash
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.sh
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.zsh
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.dsv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/package.dsv
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/packages/transporter_description
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/cmake/transporter_descriptionConfig.cmake
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/cmake/transporter_descriptionConfig-version.cmake
+-- Up-to-date: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/package.xml

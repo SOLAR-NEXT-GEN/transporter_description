@@ -1,0 +1,104 @@
+[0.006s] Invoking command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zenter/transporter_ws/src/transporter_description -DCMAKE_INSTALL_PREFIX=/home/zenter/transporter_ws/src/transporter_description/install/transporter_description
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.337s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.369s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.408s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.410s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.469s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.486s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Looking for pthread.h
+[0.561s] -- Looking for pthread.h - found
+[0.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.604s] -- Found Threads: TRUE  
+[0.631s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.632s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.653s] -- Found rviz2: 11.2.17 (/opt/ros/humble/share/rviz2/cmake)
+[0.727s] -- Configuring done
+[0.733s] -- Generating done
+[0.735s] -- Build files have been written to: /home/zenter/transporter_ws/src/transporter_description/build/transporter_description
+[0.742s] Invoked command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zenter/transporter_ws/src/transporter_description -DCMAKE_INSTALL_PREFIX=/home/zenter/transporter_ws/src/transporter_description/install/transporter_description
+[0.743s] Invoking command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zenter/transporter_ws/src/transporter_description/build/transporter_description -- -j24 -l24
+[0.775s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[0.779s] [ 50%] Built target ament_cmake_python_copy_transporter_description
+[0.893s] running egg_info
+[0.893s] creating transporter_description.egg-info
+[0.893s] writing transporter_description.egg-info/PKG-INFO
+[0.893s] writing dependency_links to transporter_description.egg-info/dependency_links.txt
+[0.893s] writing top-level names to transporter_description.egg-info/top_level.txt
+[0.894s] writing manifest file 'transporter_description.egg-info/SOURCES.txt'
+[0.894s] reading manifest file 'transporter_description.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'transporter_description.egg-info/SOURCES.txt'
+[0.909s] [ 50%] Built target ament_cmake_python_build_transporter_description_egg
+[0.918s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[0.973s] [100%] Built target cpp_node_test
+[0.980s] Invoked command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zenter/transporter_ws/src/transporter_description/build/transporter_description -- -j24 -l24
+[0.985s] Invoking command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zenter/transporter_ws/src/transporter_description/build/transporter_description
+[0.990s] -- Install configuration: ""
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/pythonpath.sh
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/pythonpath.dsv
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/top_level.txt
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description-0.0.0-py3.10.egg-info/PKG-INFO
+[0.991s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description
+[0.992s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/__init__.py
+[0.992s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/dummy_module.py
+[1.009s] Listing '/home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description'...
+[1.009s] Compiling '/home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/__init__.py'...
+[1.009s] Compiling '/home/zenter/transporter_ws/src/transporter_description/install/transporter_description/local/lib/python3.10/dist-packages/transporter_description/dummy_module.py'...
+[1.011s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/lib/transporter_description/dummy_script.py
+[1.011s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/lib/transporter_description/cpp_node_test
+[1.011s] -- Set runtime path of "/home/zenter/transporter_ws/src/transporter_description/install/transporter_description/lib/transporter_description/cpp_node_test" to ""
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/rviz
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/rviz/transport_visual_RVIZ.rviz
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/launch
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/launch/transporter_rviz.launch.py
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf/solar_urdf2.urdf
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/urdf/solar_urdf2.csv
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN3.STL
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL4.STL
+[1.012s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL3.STL
+[1.013s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN2.STL
+[1.013s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN1.STL
+[1.013s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/base_link.STL
+[1.084s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL2.STL
+[1.084s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/TEEN4.STL
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/meshes/WHEEL1.STL
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/package_run_dependencies/transporter_description
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/parent_prefix_path/transporter_description
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/ament_prefix_path.sh
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/ament_prefix_path.dsv
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/path.sh
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/environment/path.dsv
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.bash
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.sh
+[1.085s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.zsh
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/local_setup.dsv
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/package.dsv
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/ament_index/resource_index/packages/transporter_description
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/cmake/transporter_descriptionConfig.cmake
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/cmake/transporter_descriptionConfig-version.cmake
+[1.086s] -- Installing: /home/zenter/transporter_ws/src/transporter_description/install/transporter_description/share/transporter_description/package.xml
+[1.088s] Invoked command in '/home/zenter/transporter_ws/src/transporter_description/build/transporter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zenter/transporter_ws/src/transporter_description/build/transporter_description

@@ -1,0 +1,4 @@
+source;share/transporter_description/local_setup.bash
+source;share/transporter_description/local_setup.dsv
+source;share/transporter_description/local_setup.sh
+source;share/transporter_description/local_setup.zsh

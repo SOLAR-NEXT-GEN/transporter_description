@@ -64,7 +64,7 @@ def generate_launch_description():
         name='rviz2',
         output='screen',
         arguments=['-d', rviz_config_file],
-        parameters=[{'use_sim_time': True}]
+        # parameters=[{'use_sim_time': True}]
     )
 
     # Robot State Publisher
@@ -72,7 +72,7 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
-        parameters=[robot_description, {'use_sim_time': use_sim_time}]
+        parameters=[robot_description]
     )
     
     node_joint_state_publisher_gui = Node(

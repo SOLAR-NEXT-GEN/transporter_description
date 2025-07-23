@@ -5,7 +5,7 @@
 <robot
   name="transporter_description">
   <link
-    name="base_link">
+    name="base_footprint">
     <inertial>
       <origin
         xyz="0.00034798 -0.0013381 0.4763"
@@ -91,7 +91,7 @@
       xyz="0.765 2.1833 0.45859"
       rpy="1.570755657 0 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="TEEN1" />
     <axis
@@ -149,7 +149,7 @@
       xyz="-0.765 2.1833 0.45859"
       rpy="1.570755657 0 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="TEEN2" />
     <axis
@@ -207,7 +207,7 @@
       xyz="0.765 -2.1833 0.45859"
       rpy="1.570755657 0 3.1416" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="TEEN3" />
     <axis
@@ -265,7 +265,7 @@
       xyz="-0.765 -2.1833 0.45859"
       rpy="1.570755657 0 3.1416" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="TEEN4" />
     <axis
@@ -323,7 +323,7 @@
       xyz="0.685625 1.866 0.12723" 
       rpy="1.5708 0.00064167 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="WHEEL1" />
     <axis
@@ -381,7 +381,7 @@
       xyz="-0.685625 1.866 0.12723"
       rpy="1.5708 0.00064167 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="WHEEL2" />
     <axis
@@ -439,7 +439,7 @@
       xyz="0.685625 -1.875 0.12723"
       rpy="1.5708 0.00064167 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="WHEEL3" />
     <axis
@@ -497,7 +497,7 @@
       xyz="-0.685625 -1.875 0.12723"
       rpy="1.5708 0.00064167 0" />
     <parent
-      link="base_link" />
+      link="base_footprint" />
     <child
       link="WHEEL4" />
     <axis
@@ -508,4 +508,65 @@
       effort="1E+15"
       velocity="1E+15" />
   </joint>
+  
+  <!-- IMU Link - 1m above base_footprint -->
+  <link name="imu_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.02"/>
+      </geometry>
+      <material name="imu_material">
+        <color rgba="0.8 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="imu_joint" type="fixed">
+    <origin xyz="0 0 1.0" rpy="0 0 0"/>
+    <parent link="base_footprint"/>
+    <child link="imu_link"/>
+  </joint>
+  
+  <!-- GPS Link - 2m above base_footprint -->
+  <link name="gps_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.02"/>
+      <inertia ixx="0.00001" ixy="0" ixz="0" iyy="0.00001" iyz="0" izz="0.00001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.1"/>
+      </geometry>
+      <material name="gps_material">
+        <color rgba="0.2 0.8 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="gps_joint" type="fixed">
+    <origin xyz="0 0 2.0" rpy="0 0 0"/>
+    <parent link="base_footprint"/>
+    <child link="gps_link"/>
+  </joint>
+  
 </robot>
